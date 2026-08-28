@@ -13,5 +13,7 @@ class PublishedModel(models.Model):
         verbose_name='Добавлено'
     )
 
+    objects = models.Manager()
+
     class Meta:
         abstract = True
